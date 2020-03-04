@@ -32,9 +32,9 @@
 
 def naming_system
   identity = {
-    label: "Kingdom", sub_category => {
-      label: "Phylum", sub_category => {
-        label: "Class", sub_category => {
+    label: "Kingdom", sub_category: {
+      label: "Phylum", sub_category: {
+        label: "Class", sub_category: {
           "Order"
         }
       }
